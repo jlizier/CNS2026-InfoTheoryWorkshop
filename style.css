@@ -1,0 +1,136 @@
+/*
+Start with some basic styles. Set the font, background colors, 
+and default padding and margin for the body element. 
+This sets the stage for the rest of your design.
+https://github.com/ibrevis/ibrevis.github.io/
+*/
+body {
+    font-family: sans-serif; /*Arial, sans-serif;*/
+    font-size: 14px;
+    background-color: #f4f4f4;
+    color: #727272;
+    margin: 0;
+    padding: 20px;
+  }
+/*
+If you have a header, you might want to give it a background color, 
+change its text color, and maybe add some padding.
+*/
+
+/*
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+*/
+/*
+Images
+*/
+
+/*
+img {
+    width: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+*/
+/*
+Links
+*/
+/* Unvisited link */
+a:link {
+    color: #267CB9;
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out; /* Smooth transition for color and text-decoration */
+  }
+  
+  /* Visited link */
+  a:visited {
+    color: #267CB9;
+  }
+  
+  /* Mouse over link */
+  a:hover {
+    color: #267CB9;
+    font-weight: bold;
+  }
+  
+/*
+If your webpage has a navigation menu, you'll want to style that too. 
+Here's an example that removes list styling and adds some hover effects for links.
+*/
+/*nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }*/
+/*
+Style Content Sections
+For the main content sections of your page, you might want to add some distinct styling, 
+such as margins, padding, and perhaps a border.
+*/
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+/*
+Style Footer
+The footer can be styled similarly to the header but perhaps with less emphasis.
+*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+/*
+Responsive Design (Optional)
+You might want to make your webpage look good on both desktops and mobile devices. 
+You can achieve this by using media queries to apply different styles based on the screen size.
+*/  
+
+/*
+@media (max-width: 600px) {
+    nav ul li {
+      display: block;
+      margin: 0;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  }
+*/
+/*
+Classes
+*/  
+.titleh1 {
+  font-weight: bold;
+  color: #222222;
+}
+.titleh2 {
+    font-weight: bold;
+    color: #393939;
+}
