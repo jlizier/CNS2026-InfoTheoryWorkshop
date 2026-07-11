@@ -331,7 +331,16 @@ td.chair {
 	<a name="lafond"></a>
 	<p>
 	<b>Rapha&euml;l Lafond-Mercier</b> - <i>"Parallel gradient computations of mutual information between stimulus sequences and adaptive responses"</i><br/>
-	TBA.</p>
+    Mutual information (MI) is notoriously difficult to compute and its gradients with respect to model parameters even more so.
+	Inspired by the encoding of time sequences in the brain of the weakly electric fish, we propose a few simplifications
+	of the model that allows tractable computation of both quantities. While the computation remains expensive, we present
+	two methods exploiting the parallel nature of the estimation of MI to retrieve its gradients in reasonable time.
+	This is enabled using modern hardware such as GPUs to process large amounts of samples concurrently.
+	We then apply this machinery in the context of encoding the time between encounter events in adaptive responses observed
+	in the fish to retrieve optimal distributions of biophysical parameters through gradient ascent.
+	We show from first principles that a response threshold enables populations of neurons to tile the stimulus prior,
+	relating recovery time constants with time intervals found in nature. Because thresholds keep neurons silent outside of their
+	responding range, the uncovered code is efficient in both number of neurons and in firing rate.</p>
 	
 	<a name="lizier"></a>
 	<p>
